@@ -1,0 +1,40 @@
+.app {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+.note-input form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.note-input input {
+  flex: 1;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.note-input button {
+  padding: 10px;
+}
+
+.note-list {
+  margin-top: 20px;
+}
+
+.note-item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.note-item button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
