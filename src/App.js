@@ -1,10 +1,11 @@
 import React from 'react';
 import NoteList from './components/NoteList';
+import './App.css';
 
 const App = () => {
     return (
-        <div>
-            <h1>Notes</h1>
+        <div className="app">
+            <h1>Notes by Bavajann</h1>
             <NoteList />
         </div>
     );
