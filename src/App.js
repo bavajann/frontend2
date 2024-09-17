@@ -5,7 +5,7 @@ import './App.css';
 const App = () => {
     return (
         <div className="app">
-            <h1>Notes by Bavajann</h1>
+            <h1 className='h1'>Notes by Bavajann</h1>
             <NoteList />
         </div>
     );
